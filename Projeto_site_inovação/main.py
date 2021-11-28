@@ -13,9 +13,9 @@ def homepage():
     return render_template("homepage.html")
 
 # Exemplo de mais páginas
-@app.route('/pagina2')
+@app.route('/pagina_extra')
 def pagina2():
-    return render_template("pagina2.html")
+    return render_template("pagina_extra.html")
 
 
 
